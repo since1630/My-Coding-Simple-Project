@@ -1,0 +1,50 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  border-top: 2px solid #ebebeb;
+  width: 100%;
+}
+
+.nav__playlist {
+  display: flex;
+  justify-content: space-between;
+}
+.playlist__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 21px;
+  font-weight: 400;
+}
+.playlist__song {
+  font-size: 13px;
+  opacity: 0.8;
+}
+.playlist__iconcolumn {
+  display: flex;
+  justify-content: space-between;
+}
+.playlist__icons {
+  padding: 15px 25px;
+}
+.playlist__icons i {
+  margin: 13px;
+}
+.nav__ul {
+  border-top: 1px solid #fefdfd;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.nav__btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav__btn i {
+  font-size: 20px;
+}
+.nav__text {
+  margin-top: 7px;
+}

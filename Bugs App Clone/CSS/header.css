@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.8;
+  padding-top: 20px;
+}
+.header__column {
+  display: flex;
+  justify-content: center;
+  padding: 0px 29px;
+}
+
+.header__title {
+  font-size: 18px;
+  font-weight: 400;
+}
+.header__musicicon {
+  margin-left: 10px;
+}
+.header__column {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.header__iconcolumn i {
+  padding: 0px 10px;
+}

@@ -1,0 +1,19 @@
+.select-bar {
+  margin-top: 70px;
+  padding: 0px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.select__title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.select-bar__column i {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.select__country {
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0px 5px;
+}
