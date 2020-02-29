@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul>
+      <h2>Basic</h2>
+      <script>
+        function two() {
+          document.write("<li>2-1</li>");
+          document.write("<li>2-2</li>");
+        }
+        document.write("<li>1</li>");
+        two();
+        document.write("<li>3</li>");
+        two();
+      </script>
+    </ul>
+    <h2>Parameter & argument</h2>
+    <script>
+      function sum(left, right) {
+        document.write(left + right + "<br>");
+      }
+
+      sum(5, 4);
+      sum(99, 100);
+    </script>
+    <h2>Return</h2>
+    <script>
+      function sum2(left, right) {
+        return left + right;
+      }
+
+      document.write('<div style="color:red">' + sum2(2, 3) + "</div>");
+      document.write('<div style="font-size:25px">' + sum2(2, 3) + "</div>");
+    </script>
+  </body>
+</html>

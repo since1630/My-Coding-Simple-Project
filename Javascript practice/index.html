@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Something</title>
+    <link href="index.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <script>
+      function nightDayHandler(self) {
+        var target = document.querySelector("body").style;
+
+        target.backgroundColor = "black";
+        target.color = "white";
+
+        if (self.value === "night") {
+          target.backgroundColor = "black";
+          target.color = "white";
+          self.value = "day";
+          var alist = document.querySelectorAll("a");
+          var i = 0;
+          while (i < alist.length) {
+            alist[i].style.color = "powderblue";
+
+            i = i + 1;
+          }
+        } else {
+          target.backgroundColor = "white";
+          target.color = "black";
+          self.value = "night";
+
+          var alist = document.querySelectorAll("a");
+          var i = 0;
+          while (i < alist.length) {
+            alist[i].style.color = "blue";
+
+            i = i + 1;
+          }
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>coworkers</h1>
+    <a href="index.html">aaa</a>
+    <input type="button" value="night" onclick="nightDayHandler(this)" />
+
+    <script></script>
+  </body>
+</html>
