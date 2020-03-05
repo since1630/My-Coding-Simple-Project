@@ -1,7 +1,6 @@
-.form,
-.greetings {
-  display: none;
+body {
+  color: #34495e;
 }
-.showing {
-  display: block;
+.btn {
+  cursor: pointer;
 }
