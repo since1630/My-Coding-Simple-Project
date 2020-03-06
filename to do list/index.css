@@ -1,6 +1,11 @@
 body {
   color: #34495e;
 }
-.btn {
-  cursor: pointer;
+
+.form,
+.greetings {
+  display: none;
+}
+.showing {
+  display: block;
 }
